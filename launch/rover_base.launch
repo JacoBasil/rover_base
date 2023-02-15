@@ -1,0 +1,6 @@
+<launch>
+	<node name="rover_base_node" pkg="rover_base" type="rover_base_node" output="screen" >
+		<param name="control_frequency" type="int" value="50" />
+		<param name="max_wheel_angular_speed" type="double" value="4.0" />
+	</node>
+</launch>
